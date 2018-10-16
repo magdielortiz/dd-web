@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'NewsPlantin-Regular';
+  src: url('Fonts/NewsPlantin-regular-webfont.woff2') format('woff2'),
+       url('Fonts/NewsPlantin-regular-webfont.woff') format('woff'),
+       url('Fonts/NewsPlantin-regular-webfont.ttf') format('truetype');
+}

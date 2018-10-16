@@ -1,0 +1,167 @@
+body {
+  font-family: 'NewsPlantin-Regular', serif;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #231f20;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: .4s;
+  animation-fill-mode: forwards;
+  z-index: 3;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header h1 img {
+  width: 125px;
+  margin-bottom: 6px;
+}
+
+header nav a {
+  font-size: 1em;
+  color: #231f20;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #959595;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 40vh;
+  margin-bottom: 0;
+}
+
+.left-nav a {
+  margin-right: 475px;
+}
+
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 100vh; /* height of carousel */
+  margin-right: 0px;
+
+}
+
+.carousel-cell img {
+  width: 100vw;
+}
+
+.description {
+  margin-top: 250px;
+  margin-left: 170px;
+  margin-right: 170px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.description p {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.quote p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 15px;
+  left: 0;
+  display: none;
+  justify-content: space-between;
+  padding-top: 5vh;
+}
+
+footer nav a {
+  font-size: .90em;
+  color: #231f20;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/**Tablet Version**/
+
+@media (max-width: 800px) {
+  header {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  header h1 img {
+    width: 250px;
+  }
+  footer {
+    margin-left: 10px;
+  }
+}
+
+/**Iphone**/
+
+@media (max-width: 465.5px) {
+
+  header h1 img {
+    width: 100px;
+}
+header nav a {
+  display: none;
+}
+  .main-carousel {
+    position: relative;
+    top: 150px;
+    margin-top: 0px;
+  }
+  .description {
+    margin-top: 125px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+  }
+
+  .description p {
+    font-size: .90em;
+    line-height: 1.5;
+  }
+  footer {
+    display: flex;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
