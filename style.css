@@ -62,14 +62,70 @@ h2 {
 }
 
 .carousel-cell {
-  width: 100%; /* full width */
+  width: 100vw; /* full width */
   height: 100vh; /* height of carousel */
   margin-right: 0px;
 
 }
 
 .carousel-cell img {
-  width: 100vw;
+  width: 100%;
+}
+
+.one {
+  background-image: url(Images/_Corporalidades_1.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.two {
+  background-image: url(Images/DSCF0919kok.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.three {
+  background-image: url(Images/DSCF6187-2kok.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.four {
+  background-image: url(Images/DSCF8557kok.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.five {
+  background-image: url(Images/IMG_2619.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.six {
+  background-image: url(Images/IMG_3456.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.seven {
+  background-image: url(Images/RA101.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.eight {
+  background-image: url(Images/05_signagesystem.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .description {
@@ -128,15 +184,19 @@ footer nav a {
 
   header h1 img {
     width: 100px;
-}
+  }
 header nav a {
   display: none;
-}
-  .main-carousel {
-    position: relative;
-    top: 150px;
-    margin-top: 0px;
   }
+  .main-carousel {
+    height: 50%;
+  }
+  .one {
+    top: 150px;
+    height: 35%;
+  }
+
+
   .description {
     margin-top: 125px;
     margin-left: 25px;
