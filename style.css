@@ -178,9 +178,32 @@ footer nav a {
   }
 }
 
+/**Iphone Horizontal**/
+
+@media (max-width: 610px) {
+  header {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+  }
+  header h1 img {
+    width: 85px;
+  }
+  header nav a {
+    font-size: .80em;
+    margin-left: 25px;
+  }
+
+}
+
 /**Iphone**/
 
 @media (max-width: 465.5px) {
+  header {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
 
   header h1 img {
     width: 100px;
@@ -215,31 +238,32 @@ footer nav a {
   }
   footer {
     display: flex;
+    opacity: 0;
+    animation-name: fadeIn2;
+    animation-duration: 3s;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+    z-index: 3;
   }
-}
-
-/**Iphone Horizontal**/
-
-@media (max-width: 610px) {
-  header {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 0px;
-  }
-  header h1 img {
-    width: 85px;
-  }
-  header nav a {
-    font-size: .80em;
-    margin-left: 25px;
-  }
-
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
     transform: translateY(-50px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
   }
   50% {
     transform: translate(0);
