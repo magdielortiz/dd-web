@@ -73,7 +73,7 @@ h2 {
 }
 
 .one {
-  background-image: url(Images/_Corporalidades_1.jpg);
+  background-image: url(Images/Corporalidades1.jpg);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
@@ -191,7 +191,12 @@ header nav a {
   .main-carousel {
     height: 50%;
   }
-  .one {
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
     top: 150px;
     height: 35%;
   }
