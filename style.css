@@ -166,12 +166,13 @@ footer nav a {
   header h1 img {
     width: 125px;
   }
+
   .description {
     margin-top: 300px;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
-    font-size: 16px;
+    font-size: .90em;
 }
   footer {
     margin-left: 10px;
@@ -214,7 +215,7 @@ footer nav a {
 
   .carousel-cell {
     width: 100vw; /* full width */
-    height: 35vh; /* height of carousel */
+    height: 38vh; /* height of carousel */
     margin-top: 150px;
 
   }
@@ -225,6 +226,7 @@ footer nav a {
     margin-left: 25px;
     margin-right: 25px;
     text-align: left;
+    font-size: .90em;
   }
 
   .description p {
